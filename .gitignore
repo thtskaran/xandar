@@ -44,3 +44,7 @@ playwright-report/
 /*-README.md
 # Keep README.md, docs/, LICENSE/NOTICE and font licenses tracked.
 .DS_Store
+
+# Pinned public source inventory; never recorded browser traffic
+!/evidence/source-inventory-v2.json
+/juice/source/

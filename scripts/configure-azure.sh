@@ -23,9 +23,9 @@ if [[ ${PORT:-4317} != 4317 ]]; then
 fi
 printf '%s\n' 'Azure setup — no request is made until you review context and click Send in Xander.'
 node scripts/azure-launch-preflight.mjs inspect
-XANDER_SETUP_DEFAULT_ENDPOINT=''
-printf '%s\n' "Enter the inference base for your own Azure resource. No endpoint is preconfigured."
-read -r -p 'Azure HTTPS resource /openai/v1/ URL (required): ' XANDER_SETUP_ENDPOINT
+XANDER_SETUP_DEFAULT_ENDPOINT='https://YOUR-RESOURCE.services.ai.azure.com/openai/v1/'
+printf '%s\n' "Suggested inference base from your supplied resource: $XANDER_SETUP_DEFAULT_ENDPOINT"
+read -r -p 'Azure HTTPS resource /openai/v1/ URL [Enter accepts above]: ' XANDER_SETUP_ENDPOINT
 XANDER_SETUP_ENDPOINT=${XANDER_SETUP_ENDPOINT:-$XANDER_SETUP_DEFAULT_ENDPOINT}
 read -r -p 'Azure deployment name [gpt-6.1-sol]: ' XANDER_SETUP_DEPLOYMENT
 XANDER_SETUP_DEPLOYMENT=${XANDER_SETUP_DEPLOYMENT:-gpt-6.1-sol}

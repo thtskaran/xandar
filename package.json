@@ -8,7 +8,9 @@
     "start": "node server.mjs",
     "test": "node --test test/*.test.mjs",
     "check": "node scripts/check.mjs",
-    "test:workspace": "node --test test/workspace-analysis.test.mjs test/impact-forecast.test.mjs test/forecast-persistence.test.mjs test/conditional.test.mjs test/vault.test.mjs test/capture.test.mjs test/private-env.test.mjs test/launcher-identity.test.mjs"
+    "test:workspace": "node --test test/workspace-analysis.test.mjs test/impact-forecast.test.mjs test/forecast-persistence.test.mjs test/conditional.test.mjs test/vault.test.mjs test/capture.test.mjs test/private-env.test.mjs test/launcher-identity.test.mjs",
+    "test:workspace-v2": "node --test test/source-inventory.test.mjs test/site-model.test.mjs test/workspace-context-v2.test.mjs test/workspace-orchestrator-v2.test.mjs test/azure-remediation.test.mjs test/remediation-handler.test.mjs test/laya-advisory.test.mjs test/assessment-brief.test.mjs test/graph-layout.test.mjs",
+    "test:source-review": "node --test test/remediation.test.mjs test/remediation-support.test.mjs"
   },
   "dependencies": {
     "acorn": "^8.18.0",

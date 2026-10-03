@@ -16,12 +16,12 @@ podman start xander-juice-shop >/dev/null
 # Reuse an already running Xander only when its capture endpoint is present.
 PORT=${PORT:-4317}
 if curl --noproxy '*' -fsS "http://127.0.0.1:$PORT/api/capture/status" >/dev/null 2>&1; then
- echo "Xander already running: http://127.0.0.1:$PORT/capture.html | Storefront: http://127.0.0.1:3000"
+ echo "Xander already running: http://127.0.0.1:$PORT/ | Storefront: http://127.0.0.1:3000"
  exit 0
 fi
 if [[ -z ${XANDER_PLAYWRIGHT_MODULE:-} && ! -d node_modules/playwright ]]; then
  echo 'Install the pinned Playwright dependency, or set XANDER_PLAYWRIGHT_MODULE to an existing approved Playwright index.mjs.' >&2; exit 1
 fi
 # Foreground process keeps ownership clear; Ctrl+C stops Xander browser capture, not unrelated apps.
-echo "Xander: http://127.0.0.1:$PORT/capture.html | Storefront: http://127.0.0.1:3000"
+echo "Xander: http://127.0.0.1:$PORT/ | Storefront: http://127.0.0.1:3000"
 PORT="$PORT" exec node server.mjs

@@ -1,0 +1,1995 @@
+{
+  "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+  "inventoryHash": "c3f411b2ab2f4da07533988d3ae695113dc492adad29af5837b058f668544e7a",
+  "eligibleFiles": 206,
+  "files": {
+    "app.ts": "c0c5530e029eb36b1244f29eaf7219ee6e386f92d7abf327a856902fd13a0855",
+    "data/mongodb.ts": "e2feea6c76bad3164668d321d01a5eef2b4fca9c4ba385289acb36aae288e32b",
+    "frontend/src/app/about/about.component.ts": "172d44bcdf7352b8338eb87fd40b174e41a4cbc7cb4e7084f461a73400f10e43",
+    "frontend/src/app/accounting/accounting.component.ts": "9b2b80d6896adfd273d3d0d0e4c42bcc8cddf369a7eaa27adc0f251096de2253",
+    "frontend/src/app/address-create/address-create.component.ts": "d1098509135fbd99b71b816b1ecafe4f3081a59db5107346e7b99451eaa88624",
+    "frontend/src/app/address-select/address-select.component.ts": "e4f31c98b0067967978b6cb449c7e5dc653c95794b59ae228655605c69a9bc27",
+    "frontend/src/app/address/address.component.ts": "609dde4ef3065876cca0c668222079f1a2566eba2a03ce63c514a23ad8647378",
+    "frontend/src/app/administration/administration.component.ts": "4b9b13f61e9603a2074a49448484445780addf0007703391cd9c7ffc3757b72a",
+    "frontend/src/app/app.component.ts": "55ae3f8833314b81572c360b2b5f132c52eadd309090d861585cc3139d7462a4",
+    "frontend/src/app/app.guard.ts": "f3e34fbb4d8b1201026e8c9cf36bb7571b007c3673a7ec478d086c9a697c25f7",
+    "frontend/src/app/app.module.ts": "e88d95598ac93a9e027751a940d5f1bf5378a98ba5e2ff1c3fab613fe28f1d7c",
+    "frontend/src/app/app.routing.ts": "254ce0c581fc0ab4b52b22690de10b4d2bccda0c71db7d0ca24de3b89eb3312a",
+    "frontend/src/app/basket/basket.component.ts": "a9f2820b8ca74609d7c7b4b18e11ce7252bdefab6bf3c5fd807d264d383ecf97",
+    "frontend/src/app/change-password/change-password.component.ts": "075b12d8632fcdef9734c610a7f009368cb562910678867e706ec0d25a607b53",
+    "frontend/src/app/chatbot/chatbot.component.ts": "e896aa63334c265a80546ed958e6645dc80c3117303338142bfb329b11eec009",
+    "frontend/src/app/code-area/code-area.component.ts": "b30c396f53a75b1fd7e39eea8850a973e61059e635cd93a07d262be934d018bd",
+    "frontend/src/app/code-fixes/code-fixes.component.ts": "ed9e4b6953c45c2d047fe0ba2b166871dc632030739b37a04776b3a7dd935d87",
+    "frontend/src/app/code-snippet/code-snippet.component.ts": "24e259ab0b67ff6124c3758e26fdfe3b3cd361c99fd551d310a2036a162a51a0",
+    "frontend/src/app/complaint/complaint.component.ts": "92d808e709eeaf38fa02d0aa633d9282f04403a6ea738d00bb89b14abd0ecd04",
+    "frontend/src/app/contact/contact.component.ts": "702e234637d23048bba174c313b2882921395914b0b5be41561237065af3998c",
+    "frontend/src/app/data-export/data-export.component.ts": "a27b35c4ca6cb62de60f95204908c7c17ec4745e9837c1224e5145c15db88371",
+    "frontend/src/app/delivery-method/delivery-method.component.ts": "92d43d4f92b3ff7c1d959e609bde1b9f3dbbf7af896d28bd9026f37ad724ae1b",
+    "frontend/src/app/deluxe-user/deluxe-user.component.ts": "c26890f9f52dbc4d842052c4d6d597382cdb905775e5ede1ecb25d62b5dfc3de",
+    "frontend/src/app/error-page/error-page.component.ts": "0142bf49543b5e23b4a5e7dc9273b4bf0340e7bed9450949b9ff9e736c64af41",
+    "frontend/src/app/faucet/faucet.component.ts": "2c7d422e972ab4ca6017bf50943e80f68a9ba7e9f41b8e3e3356e2b3770d309b",
+    "frontend/src/app/faucet/faucet.module.ts": "6f417e87f49bd10387d833e24f538eae29bf2c89a072dc635402a9e72e507c8c",
+    "frontend/src/app/feedback-details/feedback-details.component.ts": "dd130a570c4e3aaa60e11fdf1cffc7e03d8dba4d6e1b51986c2f78cfaa7602ce",
+    "frontend/src/app/forgot-password/forgot-password.component.ts": "95796cd9fc354198afda02ac8efe8731248a1e3ae6d58687556e69e9671fb797",
+    "frontend/src/app/last-login-ip/last-login-ip.component.ts": "b44d7f75aea1e973133f7bc036d178a9edc84a396a268d961280565a5b1c3030",
+    "frontend/src/app/login/login.component.ts": "38d06279bf500950f5e02f950c4a292be4d60523cfe7dc7a5c8c0e948a284408",
+    "frontend/src/app/mat-search-bar/abstract-value-accessor.ts": "a9b7a2b892878dc0fd8fcf121ae88ddc6f0da7f5bab81d604b8dfce0279efd41",
+    "frontend/src/app/mat-search-bar/mat-search-bar.component.ts": "7b12269826ca4fac69f583cf788c8ecb4e3b29a688f90b4e1788e968c7962756",
+    "frontend/src/app/Models/backup.model.ts": "a7662aa47105f56c7c1ab476cd3e40ad7deecfe7911d72a166c794dc2e4fa6d6",
+    "frontend/src/app/Models/deliveryMethod.model.ts": "b6867e320781c9ab39326a19eec97ad0af168c662cbda5d66f95c793b6970f8a",
+    "frontend/src/app/Models/hint.model.ts": "8276895139a28c1853c993a1e1f673c70b06d199695bbd30e367ea12bd73e33b",
+    "frontend/src/app/Models/product.model.ts": "5607312e7239237caec05a1c7ffe27b51dd274922dab55ab43d1b6b0b3fee394",
+    "frontend/src/app/Models/review.model.ts": "dda288a7981c55cc22c92d115b19ea7bea362b6769157660dd6a1e5c6f029fa3",
+    "frontend/src/app/navbar/navbar.component.ts": "03062de84f03e6ed0278c0e66f68ba5427b2b6f2841629c1fa09807790fc2541",
+    "frontend/src/app/nft-unlock/nft-unlock.component.ts": "57b74a42688e1e2d85267be952e2f2a0028e7a5d34a6bcb0dbc45545d7491c5a",
+    "frontend/src/app/oauth/oauth.component.ts": "9ce41e084ca424dace1d8554dd9953055e60562a9a43be3158bf232e564763a0",
+    "frontend/src/app/order-completion/order-completion.component.ts": "ec5ed04d6261938d47bba089bb30ef9a322c1a9b5b00e487a68dcdf6ea85ead1",
+    "frontend/src/app/order-history/order-history.component.ts": "584985db61d37de9030f5b9e8823d7a05a7b92f0be1a14e04b104ce73e9ca045",
+    "frontend/src/app/order-summary/order-summary.component.ts": "b9cd401e161e1339db7b884705771cac73c156a27500d2cff56ab8365b340558",
+    "frontend/src/app/password-strength-info/password-strength-info.component.ts": "9a4c7a27958f71c1e3e6bfe14603a892ea4c3a6a5edea616dc3aad0d8a291ee9",
+    "frontend/src/app/password-strength/password-strength.component.ts": "8df1ac461431395f4e9982c2791d9aa1ffbc18eec56bc25f915a02772fd9a7c7",
+    "frontend/src/app/payment-method/payment-method.component.ts": "f06ff4a738f092ee10f7dc0620af0880869a395b18152a0350d56643f66f39fd",
+    "frontend/src/app/payment/payment.component.ts": "b398a852aa450708142f9e9e708e398cabe573b36f70a90c3328ba970027fbde",
+    "frontend/src/app/photo-wall/mime-type.validator.ts": "0c0d6be82895e5ff0a2f07f079e57f77277914ba52ea4e4d9bbe218e2480cc6f",
+    "frontend/src/app/photo-wall/photo-wall.component.ts": "66e46373f231e6d5de6032162fff3bb6738a5af25d91bd48a615a57a06ba12d3",
+    "frontend/src/app/privacy-policy/privacy-policy.component.ts": "4ea5072070072fe4296016456f1b623e34ff96f223f33fa0da6c67fcf4c1f822",
+    "frontend/src/app/privacy-security/privacy-security.component.ts": "e48dcdba94ea0b0ace3c92abe48707abe3fd26ab044231634c4198a04ff080d4",
+    "frontend/src/app/product-details/product-details.component.ts": "dba038d8de09996cd9c877d6268dc4d4bc5216d6d9d3bc3f101f8e6bff7b000a",
+    "frontend/src/app/product-review-edit/product-review-edit.component.ts": "47b1a3c5604197456319ed8b99e4b8c0e1a3754a953720b993405a8cb71f1299",
+    "frontend/src/app/purchase-basket/purchase-basket.component.ts": "6cff62d323e7ec24f8bbfe0371600c54e39fe2313db980bcc453b06ac7db2d34",
+    "frontend/src/app/qr-code/qr-code.component.ts": "e279e9ac8f03ee0b8a72bc3d5ee42677ef5140fc847a99502507f19502a6088e",
+    "frontend/src/app/recycle/recycle.component.ts": "980843ed9e2fc0ee56a86f1beb9edace084c9f88560f4d3f6e3e75c9786ad3f9",
+    "frontend/src/app/register/register.component.ts": "3cb227b933b0e8eb51cec3af4cef41d56f2e2bac745a1b2dc192f2c5934d31ee",
+    "frontend/src/app/roles.ts": "7776b8524e459fb1c0bd07ccef466172d2b08ea7649b35a3df38cd1049123331",
+    "frontend/src/app/saved-address/saved-address.component.ts": "e45623c67a192c75dc2cdb2e2601b10160f4807972ebab2ee18c03c838ea260c",
+    "frontend/src/app/saved-payment-methods/saved-payment-methods.component.ts": "57fd6014007041b43a3c36149619380e3d0c659e2ce9dfe9d02d86c2282f1bfe",
+    "frontend/src/app/search-result/search-result.component.ts": "400610a410c4d99da1ce9052096b1e4f508d8277c723decf2f263f46abdf30ad",
+    "frontend/src/app/server-started-notification/server-started-notification.component.ts": "f266b823de3fbef161f239be195ab4132e03f50c5be34f88c174727efea5ff69",
+    "frontend/src/app/Services/address.service.ts": "01f62d9de1a9400cce6c7b51df4ec9a49fc1d8ab9772ab5824cffa62885333c2",
+    "frontend/src/app/Services/administration.service.ts": "dd28bd4877cdeb7e51dda8256c21c0432296870b6e80f882b748846487427879",
+    "frontend/src/app/Services/basket.service.ts": "df5b2d68fa0ac2342bcce76c712e6fbb0c166da38d38595ca9cdf89a5cb1a59e",
+    "frontend/src/app/Services/captcha.service.ts": "d88612348074a756710833b298fb455c77df06d253f82f4558516205b20abb01",
+    "frontend/src/app/Services/chatbot.service.ts": "21120a7434afd23b3ecdab4a93796a80d0cfaf8205023a292ca45b115a8cd3c0",
+    "frontend/src/app/Services/code-fixes.service.ts": "373b38d5436efa59944f0dd4b95ec517839ed34b4ca823118e923ec3bffcdf7a",
+    "frontend/src/app/Services/code-snippet.service.ts": "074b32d0eb076ce83de0ce4c6cb266c904a9f172842cb7b85b6062963b2d7b7e",
+    "frontend/src/app/Services/complaint.service.ts": "66f612e6b8a43da12b0eb40bf06fbe9ed8c3683a800235618d478e8fef49ea3e",
+    "frontend/src/app/Services/configuration.service.ts": "2df42b463d7c7a169e4664e9de4dd9b0ae8270da56621530b4ee681f048dc0ad",
+    "frontend/src/app/Services/country-mapping.service.ts": "087e0f2e241ead005005a32edf5d479508679d22e2ab4ad35e2e12de273e37f6",
+    "frontend/src/app/Services/data-subject.service.ts": "26d1ddf599951e2ec4eb22969a3ffa08c3542a1227e6c01fb3e235f98d03323a",
+    "frontend/src/app/Services/delivery.service.ts": "7d845cb677139a1388193a150b3564c8309c7f69bdddb2d5099993fd18910728",
+    "frontend/src/app/Services/feedback.service.ts": "3284bb2958736b6b646467f77d96290b9e3d2e69845a48e099a6dca332ba040c",
+    "frontend/src/app/Services/form-submit.service.ts": "6964b523d4f3cbe097ad314c5536e676b27e4bb9ab29d51598e222a51d488a51",
+    "frontend/src/app/Services/hint.service.ts": "321aa96ff8f2e5858b8491e828e55b83c4516e31749e3396794de0c3ce699d4e",
+    "frontend/src/app/Services/image-captcha.service.ts": "e95e843e1f7679f9712710c75489fdcac88e17d5f4fcf6530099cb28a8187890",
+    "frontend/src/app/Services/keys.service.ts": "b2b3c3004975a07ad79b34dbdc981e392f76c07ff6adf136e5cff7dca7db58c8",
+    "frontend/src/app/Services/languages.service.ts": "ed1095c87a8ca77cb311e6a614df5a6bdb9424cddec50f245766f6b93e62f9c1",
+    "frontend/src/app/Services/local-backup.service.ts": "ee6f8a0868569a9a0915a0abf387dccd6475e502f3a3415252507a739fb1496c",
+    "frontend/src/app/Services/order-history.service.ts": "9ce506a80348c7ba9d9b202534a83ea117915542c7d1c22818ca73c5a76271c5",
+    "frontend/src/app/Services/payment.service.ts": "c98c22fe1ef973edcfa029968a1e44e5fbf629bb1ca4f24e76cac8f9bb86c807",
+    "frontend/src/app/Services/photo-wall.service.ts": "5d9198e71d9de112af5194af27d8a58b8392317e3184d0e8b6f2904baab0cbd6",
+    "frontend/src/app/Services/product-review.service.ts": "d20f23658549ba987cadb2bcdd9093c9c0a0b694ab7caaead33705274e029024",
+    "frontend/src/app/Services/product.service.ts": "f009709b9d4cce9f03f43456b677ba6ccddd855fe772e761d679401b623115a3",
+    "frontend/src/app/Services/quantity.service.ts": "d7f4e0da88bb2af73714ea8e0e9152ea955b64ed11d940ef350d6cea6544188a",
+    "frontend/src/app/Services/recycle.service.ts": "f278ae83d44354c4306f748aa722de894fd562899d0e34739fd31884dc685ef8",
+    "frontend/src/app/Services/request.interceptor.ts": "226717a44e067d935b9cf790fd941b49461f91f34375e3521424e40f100671e3",
+    "frontend/src/app/Services/security-answer.service.ts": "b0130455bedbe9b8076571fde56d91c425311069641b585126e44235488eefac",
+    "frontend/src/app/Services/security-question.service.ts": "40cf7f714825bc98c85a46f77137afaaea8e2bb486c3f0a8881b6e3444a651f4",
+    "frontend/src/app/Services/snack-bar-helper.service.ts": "72c614ad00468fbeb16fe29355b218c7f5056a3f8f1ee40d52af06cbcca511bd",
+    "frontend/src/app/Services/socket-io.service.ts": "34ee9795238d108e1b631664f45ea346159f4c91bae6b099351c239a3887efc7",
+    "frontend/src/app/Services/track-order.service.ts": "43d20076b1339133e3edca925e548df33419faf06f2a66e2b109a6a03362af91",
+    "frontend/src/app/Services/two-factor-auth-service.ts": "f21c150458ef673ace77d376914f6d6e137586810ac9587d18a4d4ea4d9b7de7",
+    "frontend/src/app/Services/user.service.ts": "a26e222fe1c9eca6f57e2b003f607ad2a56e19e9f460726287c09f5f910461b1",
+    "frontend/src/app/Services/vuln-lines.service.ts": "ffbf6951e25e08cca8b87a23b67bde0e61efd67f01b852cecbc1cf2484228ef2",
+    "frontend/src/app/Services/wallet.service.ts": "05f63488afe793e96a343c549036ddad6515b8d6beda2dd1a3931ff738e0622b",
+    "frontend/src/app/Services/window-ref.service.ts": "b702290d2cf6c9c6a0dd1c7ac63ac6238b292db3eb94a34cb43c9061fe2ffe52",
+    "frontend/src/app/sidenav/sidenav.component.ts": "675e94ac154dbb03e7bf66352d35b33f168908cb11b256da6ec30e5ff5e839af",
+    "frontend/src/app/token-sale/token-sale.component.ts": "8424479900ec9ad0716a83c41c58f31b2901f7f4c2462e2400864fe56bb6bf47",
+    "frontend/src/app/track-result/track-result.component.ts": "6d17c5be3d81f1c3522e8ef9e6a9dfc55fa4cc012c0db98eb87fcbaee3824158",
+    "frontend/src/app/two-factor-auth-enter/two-factor-auth-enter.component.ts": "276506c3eaa70e8316f41f9d4950c1391af8e3f422f84ddacdb66bbc4448b50f",
+    "frontend/src/app/two-factor-auth/two-factor-auth.component.ts": "9b4649428c4ec1e080083d94341454f2773101dc2c7a3eecca655d2f3eccfb58",
+    "frontend/src/app/user-details/user-details.component.ts": "57b55842866c966fb1988c3f2d85ad7e0b262a25912323f01caf120d489aefd8",
+    "frontend/src/app/wallet-web3/wallet-web3.component.ts": "6eac3445b3eed3ebf15f2278baafb132da31f1605c5b6c234199f695e8f80ae8",
+    "frontend/src/app/wallet-web3/wallet-web3.module.ts": "ba139c591fcebc4aeac72dd9d8b00b5205e96f1dc5556645cc0ccafd18c07fed",
+    "frontend/src/app/wallet/wallet.component.ts": "19fb471a80b1cdafff3f3344d2d0c6a2a088c3b2503c0cc6271a8a456252212a",
+    "frontend/src/app/web3-sandbox/web3-sandbox.component.ts": "51136747a04147695d9f2790168d73d6e37922ed00b78b31bf9c05dac13544eb",
+    "frontend/src/app/web3-sandbox/web3-sandbox.module.ts": "d290ce8f3401f11f206d02348aff0979f8d37750d6d016e446c69c84acdfa56f",
+    "frontend/src/app/welcome-banner/welcome-banner.component.ts": "aa309f95f856ad6c502c60fa335dbf276fa290d131d3776f0d3478ab72d61814",
+    "frontend/src/app/welcome/welcome.component.ts": "23f4cec724025d26e4a3af7ea6627347540e4dad6a290cd01720a6a91305c037",
+    "lib/accuracy.ts": "78e10e71498546e6e5a89c77818dc95eb5ea112ca8a373f8d4fba5a9c178ad7c",
+    "lib/botUtils.ts": "04996728de35f69d69aad228e7e3e43e3db0cb94e104c192521a955305aa2494",
+    "lib/insecurity.ts": "1a8111e28939c6451c9511dbed80431ad517fb945b32b4ba10e060c3e8bd84f9",
+    "lib/is-docker.ts": "6fb8ff7e0ee885cd6dbad73cfa7788c85241704b2d8f16554b882a77e567be2f",
+    "lib/is-heroku.ts": "aeaab41cc9b4f93de437e6c84f3b6906641e113276bd649a55ee42f2d3634d38",
+    "lib/is-windows.ts": "4e9cb05caa1741c98be5b705ca5049ce9d8ca9dd6ed6f0a0b7e727bd63044d4b",
+    "lib/logger.ts": "3487b5f775e341e87eae1401bba6ea0302843f94d52d66c08fd3f473cb061471",
+    "lib/noUpdate.ts": "aad9c28269c665e0993f20d546f31fa23c1d4760f5fdb526780f505055f777f9",
+    "lib/startup/cleanupFtpFolder.ts": "d5e1161879eb7b6acc9868ed8d42b6a099128e2cac5d1e59137e14a3958dfcc1",
+    "lib/startup/customizeApplication.ts": "98ef4a8df045de088448245aeb66fd39693ad5f1fa8124348079d3e8a3e8fdee",
+    "lib/startup/registerWebsocketEvents.ts": "4fa9056a3fcf12cbad79a09a83124015d02d833e1734a0cd2c7881b7f1a9cdaa",
+    "lib/startup/restoreOverwrittenFilesWithOriginals.ts": "a9429aebe0ccaecc26c32f602372a176923647c2f8b84008b092004e48bb54f2",
+    "lib/startup/validateChatBot.ts": "44149dc7e496aea48108f3976bf16fcc6f105bf24d98d53d7864c65113fbe764",
+    "lib/startup/validateConfig.ts": "a708d33a92d729fee3d263dd6d4303f08a5c3a7bff70e663feec870d0a5d1614",
+    "lib/startup/validateDependencies.ts": "e3c705854a37c93beee09c16aee99762a320074e5e20d2005d0ad23e6c27ca51",
+    "lib/startup/validateDependenciesBasic.ts": "a2f1bda4fbe1ed9d46ba1b98fe8725e226ba56ecc2b7cde505aa6f46363824c8",
+    "lib/startup/validatePreconditions.ts": "6102723e636d6aa6c8a3ec4a504a00c89a9f93db4a2f57b5350b485ed870b076",
+    "lib/utils.ts": "15003b3a1f1a8abf820e403e4bba0da6174093e76eda2bad2fc02bf5c57aab87",
+    "lib/webhook.ts": "5233b089810850b3b650bc392fb07b87959f8f04cf73edde938011a874101b6c",
+    "models/address.ts": "e2eef51598d0113bc6425dac08004de5b0623798ca9604301b2ac2e64f32dfbd",
+    "models/basket.ts": "4225b5f8b0e96551404ca803fc519df90f5d059172cccf79d7c7743d91b2d3f0",
+    "models/basketitem.ts": "62415bea58cb4ec752c09f737298acdc19d8205a3420ec3a683b07362bd66d5e",
+    "models/captcha.ts": "b1a33be238d7e4b6cd2295d2dee52a4002126f2dc7bc3d2620444756e444445e",
+    "models/card.ts": "3b49d5c6731b3d25e59505d547096739b2e475bcda131f4601fefaacc99f9a91",
+    "models/complaint.ts": "196eac3e136bb2175c0fa340a5cf762148fbc9c4b828b8da30f68835ee887e32",
+    "models/delivery.ts": "fa516eba8906cece4b28d5ad9dc200bdfa4071ce7001fefbee90eb836b46dda5",
+    "models/feedback.ts": "b41e727e59735fc86f2accc958a3d960384dced7da16f33dd73bc37958e03c73",
+    "models/hint.ts": "529b1e0d94e215010b63bc6b27819cabbb0581d4c12d279b06949949b0a18bc0",
+    "models/imageCaptcha.ts": "31f3dbe0a9edc38a2ca6c17018fe4d5785d372491f852d9e0d03198863187d08",
+    "models/index.ts": "258046cf10de30904fc8c7eb6c9bdd19479029912fdbef63448b356332dfe1c0",
+    "models/memory.ts": "3517720f92fc52e3abd5d10da2b443c459c529e1bb780876a464ffd9b62bf2d7",
+    "models/privacyRequests.ts": "ca1a93a719252de517783d620bbab49e4a2195107339eb0e1171d8327dcc3e68",
+    "models/product.ts": "f37c5180382f159cfa7b194e4bf31616afab6f3d7c0155f3b65fdcab25631911",
+    "models/quantity.ts": "f12640c6c844a6f50b8a6f35b587c3e0ca37aea8ca89aa24d76b6ec3df6fec4f",
+    "models/recycle.ts": "89dd126332a5015d8a167c41a12c3030948d28b2bb9c1fbd076868e311bee538",
+    "models/relations.ts": "786e1a7c39981fd2efdc3b3f1d871d19d6e12a76e1f3669135f9ba1c3cdf8ef6",
+    "models/securityAnswer.ts": "5816441de7991ec60a9fe4230cb56d815c70fdb2800863ac961face46ab50203",
+    "models/user.ts": "48720eefc299710e3ea84d3da80f796efb03b2e728c6e3ccbc123c76db43600b",
+    "models/wallet.ts": "60668b37b372208562eb497176f05a399d5a7c53e42cf824e4e9f6f6109c8af0",
+    "routes/2fa.ts": "f24e85c9d6f01c6adde4fcee33570926bab6d7ae0243bd2636fce11d580e7c23",
+    "routes/address.ts": "75a01f9ca8c34951a4b9a1302782c8360ed1cc6e25a219dda1610b196fe7764a",
+    "routes/angular.ts": "5160fc46921f1c86f5297caba35229776ebd1a4c01a30098f7007129c3d8f135",
+    "routes/appConfiguration.ts": "539ba264174147929491cb069f08ca7255596985f7c59ca5945410f52ab1a330",
+    "routes/appVersion.ts": "a1c7f1ca9d9e01fbb073f509d14f1c2c93bb89afce8fde40a5eead65074af29b",
+    "routes/authenticatedUsers.ts": "f465f5fd8883853d126b4e706eb5826f613186759eeb8b95710e5ef039a1dfef",
+    "routes/b2bOrder.ts": "ace029d51ed7826e6fbf5737a421dc8adb18fbbe8d53fb2c0ba7812c1fbed9e9",
+    "routes/basket.ts": "e0e9bb40759d618fcbc434bb7a613379654186785473b2dc708cfd2240d7aca6",
+    "routes/basketItems.ts": "965168389b065d4031ec796a7f6046dc1eea6c5b6b4a156b337c3ecf0e920214",
+    "routes/captcha.ts": "bf6bf2da7a01df064507236470fd2a81ae5f0a911011ed6025cee87c5c79280a",
+    "routes/changePassword.ts": "b0e88892af36a1a302e30bf3dc487d7929242c2df0e7d40899001af8b376f8cc",
+    "routes/chatbot.ts": "501784a5c8b87bc4c38bb3babdf86d4bcd2e72559b2873b35374247284c6b5e1",
+    "routes/countryMapping.ts": "e7374f864d4fdc266bd77bfab7a8ddb3fb73559db89a566f3b0b9e83286d3054",
+    "routes/coupon.ts": "6e66b7281132b1c567417fc65b59d14ca513b77c7d417682bee99bdd7003b1a2",
+    "routes/createProductReviews.ts": "29fd1db943f9c1a79ee509555c35a3b84d2386e9e8a4d40332818be5de718351",
+    "routes/currentUser.ts": "417806bb57d4153c2483fa588d47e027826348c40908e79a6afeeca4ca095e59",
+    "routes/dataErasure.ts": "8275b90d295a34d1aacec8ab88297badd28fe27edf55a80a359286e3eac7381e",
+    "routes/dataExport.ts": "f1cad917ec675d11899a20d7e18c999a99ff0b8d598cc31be1514c7499bfa23e",
+    "routes/delivery.ts": "12d0d210d70008aaaca4b9c2b801d863ea8d8ae73f509d4df9510bb23f023117",
+    "routes/deluxe.ts": "a30e389fd6b2f89d76e69e2c7a1391953391b78bf549b4b99a18811e29736115",
+    "routes/errorHandler.ts": "fc340bc38ddf3c1027d89d5fd9e75b6488239cdaf57e6b02bebc7549e759a15a",
+    "routes/fileServer.ts": "71420878b020a0cb3fc99aa6b74e043362d179dd6fdf93278c95e5892f7e3f45",
+    "routes/fileUpload.ts": "afc26b1fe4f4db0a54ac7b62eb8bb598208451d939a5b03257b2fefc184ef55e",
+    "routes/imageCaptcha.ts": "1ff441ae969314bcc8f3567fe5634845b6435a4afb0f93656a749d0d66d409d8",
+    "routes/languages.ts": "80341422be07a20485f70ed7f16a9b447ef1e91411c11432fb586fa11b1064e1",
+    "routes/likeProductReviews.ts": "96fe6b12cdd42db418b468b5acb6b793e04680d7fd8a2f62b6a8998469abecba",
+    "routes/logfileServer.ts": "5ba6d6cf6b881618f2b4d22d4ae704e920e1125a920cc20cd8ecc226eb53caa0",
+    "routes/login.ts": "929c7d7fee1e7f5bdf2df9728e4e5eb99966d2b85b108c2859b7b9186266a10b",
+    "routes/memory.ts": "ece58af6eddbdae30efb593213ada19ab4a50ed939fb64a76497b194d0000e14",
+    "routes/metrics.ts": "eaf979bfd8c85df0c7ef1612ff726c9cf031c42a489df62daaa8c2ab2fe0ab9f",
+    "routes/nftMint.ts": "12812974962b1e3491744d26fee7f42d02da42c3f7969ff8f46b86a7dcdbe99f",
+    "routes/order.ts": "51e224e617e11eaa505e4973ba6ae4cd1ddd07fad7974b9d9afde33ceadff84f",
+    "routes/orderHistory.ts": "b7d7a7cecb3b36ecfb7b3928fa7b193789f27f83283ad77a3f0221d9a94cc862",
+    "routes/payment.ts": "64cc1ba2eee34a972d32aaa4cb8cc377b4f674d70b474628408bf706e49baa88",
+    "routes/premiumReward.ts": "51d3718fcd84d5258e205a98dd087548b0f41f36b7f07be55e3c61b2baac5b0d",
+    "routes/privacyPolicyProof.ts": "09437e3d514cbe1887a2ff169bef28eb642606a99434843e894490eb61a40b52",
+    "routes/profileImageFileUpload.ts": "16216ba6cdba919f88cca477c2f78c05c6ebb527dc9eaa7940d9d4d253d6bfa1",
+    "routes/profileImageUrlUpload.ts": "1637a526c2d903a9c83be19875e196e24023db0ec526e8f54c1a3a21c088b416",
+    "routes/quarantineServer.ts": "75dcdac319b53ab35a3122b671b39321f1dad7c4ed350c232936adee60aff2e3",
+    "routes/recycles.ts": "24c27c0ac129061645552c1aba703647f99ed216dcf389cd616982e4d1111318",
+    "routes/redirect.ts": "ebdc1ba471d241a6b375069688f9f0ed56897e930056bfe636a3ce2f377d7176",
+    "routes/repeatNotification.ts": "1bf536c83666aeaca10b6793b8b64e3d52a45a29ab111fcb89df15372dac00bc",
+    "routes/resetPassword.ts": "51859c545a754453b27fb045e7ad66e36fe3554a3ca2fa17b9ae759cb427b6bd",
+    "routes/saveLoginIp.ts": "9362f3a1ae6bb9d52680437d62fdcd880b5d66c8084715e4c475e7848ca5c56c",
+    "routes/search.ts": "e2fb4e762404cb16268ebe745fe7137f261074fcd59eb8207a2b23554c4c6fe9",
+    "routes/showProductReviews.ts": "168cc4dcb9329665f56c2085989538a119287ffd4eb2e8ca04c26826e72d473a",
+    "routes/trackOrder.ts": "c7ffe7bcbda33c770b0478c74f8282f7dfef9f21f71ece349ba1d4acc49c0091",
+    "routes/updateProductReviews.ts": "4c5d340b2bcd85ac6cb931dabb39ee3e6b44b86be12ad62b0db5f8fd19285f8e",
+    "routes/updateUserProfile.ts": "e7afca03ea0dfe87bc9c680611ce1aa18eaae55c8af81ccbe5c953614053a45b",
+    "routes/userProfile.ts": "78e56208bd67cf526a6b5252f9e46f1a4befae08ff0916d0bfe36e2ee0b62692",
+    "routes/verify.ts": "d9565a87a048ed501db2036786cf4f502b94112eec7b730dd5660430ddd91228",
+    "routes/videoHandler.ts": "7c2ed7216f2ebfe8c3cc0eeda097ef22a31840e644eb07bc8f78bd3cfad82727",
+    "routes/wallet.ts": "d5eaf2413f9b3a1fc3655ce026b628d80146eaf05f5ae5e2604223263f6292e6",
+    "routes/web3Wallet.ts": "d12f8a9d46a767827ccbf2d5b5be0d0b848d3a107edbadb9659f2d591e75a53e",
+    "server.ts": "b9221b1a9664444a4a8ca07e590bae657c093150f1438c1a644e1fd7398bd732"
+  },
+  "allowedLineRanges": {
+    "app.ts": [
+      [
+        1,
+        18
+      ]
+    ],
+    "data/mongodb.ts": [
+      [
+        1,
+        11
+      ]
+    ],
+    "frontend/src/app/about/about.component.ts": [
+      [
+        1,
+        133
+      ]
+    ],
+    "frontend/src/app/accounting/accounting.component.ts": [
+      [
+        1,
+        157
+      ]
+    ],
+    "frontend/src/app/address-create/address-create.component.ts": [
+      [
+        1,
+        152
+      ]
+    ],
+    "frontend/src/app/address-select/address-select.component.ts": [
+      [
+        1,
+        26
+      ]
+    ],
+    "frontend/src/app/address/address.component.ts": [
+      [
+        1,
+        105
+      ]
+    ],
+    "frontend/src/app/administration/administration.component.ts": [
+      [
+        1,
+        126
+      ]
+    ],
+    "frontend/src/app/app.component.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        17,
+        19
+      ]
+    ],
+    "frontend/src/app/app.guard.ts": [
+      [
+        1,
+        84
+      ]
+    ],
+    "frontend/src/app/app.module.ts": [
+      [
+        1,
+        15
+      ]
+    ],
+    "frontend/src/app/app.routing.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        45,
+        54
+      ],
+      [
+        253,
+        267
+      ]
+    ],
+    "frontend/src/app/basket/basket.component.ts": [
+      [
+        1,
+        42
+      ]
+    ],
+    "frontend/src/app/change-password/change-password.component.ts": [
+      [
+        1,
+        158
+      ]
+    ],
+    "frontend/src/app/chatbot/chatbot.component.ts": [
+      [
+        1,
+        128
+      ]
+    ],
+    "frontend/src/app/code-area/code-area.component.ts": [
+      [
+        1,
+        66
+      ]
+    ],
+    "frontend/src/app/code-fixes/code-fixes.component.ts": [
+      [
+        1,
+        62
+      ]
+    ],
+    "frontend/src/app/code-snippet/code-snippet.component.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        12,
+        65
+      ],
+      [
+        103,
+        171
+      ],
+      [
+        214,
+        235
+      ]
+    ],
+    "frontend/src/app/complaint/complaint.component.ts": [
+      [
+        1,
+        25
+      ],
+      [
+        43,
+        118
+      ]
+    ],
+    "frontend/src/app/contact/contact.component.ts": [
+      [
+        1,
+        141
+      ]
+    ],
+    "frontend/src/app/data-export/data-export.component.ts": [
+      [
+        1,
+        98
+      ]
+    ],
+    "frontend/src/app/delivery-method/delivery-method.component.ts": [
+      [
+        1,
+        79
+      ]
+    ],
+    "frontend/src/app/deluxe-user/deluxe-user.component.ts": [
+      [
+        1,
+        60
+      ],
+      [
+        84,
+        89
+      ]
+    ],
+    "frontend/src/app/error-page/error-page.component.ts": [
+      [
+        1,
+        41
+      ]
+    ],
+    "frontend/src/app/faucet/faucet.component.ts": [
+      [
+        1,
+        50
+      ],
+      [
+        63,
+        86
+      ],
+      [
+        108,
+        113
+      ],
+      [
+        135,
+        318
+      ]
+    ],
+    "frontend/src/app/faucet/faucet.module.ts": [
+      [
+        1,
+        44
+      ]
+    ],
+    "frontend/src/app/feedback-details/feedback-details.component.ts": [
+      [
+        1,
+        30
+      ]
+    ],
+    "frontend/src/app/forgot-password/forgot-password.component.ts": [
+      [
+        1,
+        143
+      ]
+    ],
+    "frontend/src/app/last-login-ip/last-login-ip.component.ts": [
+      [
+        1,
+        43
+      ]
+    ],
+    "frontend/src/app/login/login.component.ts": [
+      [
+        1,
+        43
+      ],
+      [
+        54,
+        129
+      ]
+    ],
+    "frontend/src/app/mat-search-bar/abstract-value-accessor.ts": [
+      [
+        1,
+        47
+      ]
+    ],
+    "frontend/src/app/mat-search-bar/mat-search-bar.component.ts": [
+      [
+        1,
+        103
+      ]
+    ],
+    "frontend/src/app/Models/backup.model.ts": [
+      [
+        1,
+        14
+      ]
+    ],
+    "frontend/src/app/Models/deliveryMethod.model.ts": [
+      [
+        1,
+        13
+      ]
+    ],
+    "frontend/src/app/Models/hint.model.ts": [
+      [
+        1,
+        5
+      ]
+    ],
+    "frontend/src/app/Models/product.model.ts": [
+      [
+        1,
+        14
+      ]
+    ],
+    "frontend/src/app/Models/review.model.ts": [
+      [
+        1,
+        11
+      ]
+    ],
+    "frontend/src/app/navbar/navbar.component.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        22,
+        61
+      ],
+      [
+        98,
+        100
+      ],
+      [
+        106,
+        154
+      ],
+      [
+        165,
+        256
+      ],
+      [
+        267,
+        296
+      ]
+    ],
+    "frontend/src/app/nft-unlock/nft-unlock.component.ts": [
+      [
+        1,
+        31
+      ],
+      [
+        49,
+        70
+      ]
+    ],
+    "frontend/src/app/oauth/oauth.component.ts": [
+      [
+        1,
+        77
+      ]
+    ],
+    "frontend/src/app/order-completion/order-completion.component.ts": [
+      [
+        1,
+        103
+      ]
+    ],
+    "frontend/src/app/order-history/order-history.component.ts": [
+      [
+        1,
+        120
+      ]
+    ],
+    "frontend/src/app/order-summary/order-summary.component.ts": [
+      [
+        1,
+        89
+      ]
+    ],
+    "frontend/src/app/password-strength-info/password-strength-info.component.ts": [
+      [
+        1,
+        45
+      ]
+    ],
+    "frontend/src/app/password-strength/password-strength.component.ts": [
+      [
+        1,
+        66
+      ]
+    ],
+    "frontend/src/app/payment-method/payment-method.component.ts": [
+      [
+        1,
+        129
+      ]
+    ],
+    "frontend/src/app/payment/payment.component.ts": [
+      [
+        1,
+        292
+      ]
+    ],
+    "frontend/src/app/photo-wall/mime-type.validator.ts": [
+      [
+        1,
+        53
+      ]
+    ],
+    "frontend/src/app/photo-wall/photo-wall.component.ts": [
+      [
+        1,
+        118
+      ]
+    ],
+    "frontend/src/app/privacy-policy/privacy-policy.component.ts": [
+      [
+        1,
+        43
+      ]
+    ],
+    "frontend/src/app/privacy-security/privacy-security.component.ts": [
+      [
+        1,
+        16
+      ]
+    ],
+    "frontend/src/app/product-details/product-details.component.ts": [
+      [
+        1,
+        100
+      ]
+    ],
+    "frontend/src/app/product-review-edit/product-review-edit.component.ts": [
+      [
+        1,
+        55
+      ]
+    ],
+    "frontend/src/app/purchase-basket/purchase-basket.component.ts": [
+      [
+        1,
+        121
+      ]
+    ],
+    "frontend/src/app/qr-code/qr-code.component.ts": [
+      [
+        1,
+        37
+      ]
+    ],
+    "frontend/src/app/recycle/recycle.component.ts": [
+      [
+        1,
+        148
+      ]
+    ],
+    "frontend/src/app/register/register.component.ts": [
+      [
+        1,
+        118
+      ]
+    ],
+    "frontend/src/app/roles.ts": [
+      [
+        1,
+        12
+      ]
+    ],
+    "frontend/src/app/saved-address/saved-address.component.ts": [
+      [
+        1,
+        18
+      ]
+    ],
+    "frontend/src/app/saved-payment-methods/saved-payment-methods.component.ts": [
+      [
+        1,
+        19
+      ]
+    ],
+    "frontend/src/app/search-result/search-result.component.ts": [
+      [
+        1,
+        68
+      ],
+      [
+        139,
+        151
+      ],
+      [
+        183,
+        290
+      ]
+    ],
+    "frontend/src/app/server-started-notification/server-started-notification.component.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        14,
+        28
+      ],
+      [
+        85,
+        89
+      ]
+    ],
+    "frontend/src/app/Services/address.service.ts": [
+      [
+        1,
+        42
+      ]
+    ],
+    "frontend/src/app/Services/administration.service.ts": [
+      [
+        1,
+        27
+      ]
+    ],
+    "frontend/src/app/Services/basket.service.ts": [
+      [
+        1,
+        70
+      ]
+    ],
+    "frontend/src/app/Services/captcha.service.ts": [
+      [
+        1,
+        24
+      ]
+    ],
+    "frontend/src/app/Services/chatbot.service.ts": [
+      [
+        1,
+        28
+      ]
+    ],
+    "frontend/src/app/Services/code-fixes.service.ts": [
+      [
+        1,
+        14
+      ],
+      [
+        18,
+        39
+      ]
+    ],
+    "frontend/src/app/Services/code-snippet.service.ts": [
+      [
+        1,
+        16
+      ],
+      [
+        20,
+        34
+      ]
+    ],
+    "frontend/src/app/Services/complaint.service.ts": [
+      [
+        1,
+        23
+      ]
+    ],
+    "frontend/src/app/Services/configuration.service.ts": [
+      [
+        1,
+        11
+      ],
+      [
+        97,
+        116
+      ]
+    ],
+    "frontend/src/app/Services/country-mapping.service.ts": [
+      [
+        1,
+        22
+      ]
+    ],
+    "frontend/src/app/Services/data-subject.service.ts": [
+      [
+        1,
+        30
+      ]
+    ],
+    "frontend/src/app/Services/delivery.service.ts": [
+      [
+        1,
+        40
+      ]
+    ],
+    "frontend/src/app/Services/feedback.service.ts": [
+      [
+        1,
+        34
+      ]
+    ],
+    "frontend/src/app/Services/form-submit.service.ts": [
+      [
+        1,
+        28
+      ]
+    ],
+    "frontend/src/app/Services/hint.service.ts": [
+      [
+        1,
+        30
+      ]
+    ],
+    "frontend/src/app/Services/image-captcha.service.ts": [
+      [
+        1,
+        23
+      ]
+    ],
+    "frontend/src/app/Services/keys.service.ts": [
+      [
+        1,
+        32
+      ],
+      [
+        41,
+        75
+      ]
+    ],
+    "frontend/src/app/Services/languages.service.ts": [
+      [
+        1,
+        22
+      ]
+    ],
+    "frontend/src/app/Services/local-backup.service.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        14,
+        20
+      ],
+      [
+        22,
+        31
+      ],
+      [
+        53,
+        65
+      ],
+      [
+        88,
+        99
+      ]
+    ],
+    "frontend/src/app/Services/order-history.service.ts": [
+      [
+        1,
+        32
+      ]
+    ],
+    "frontend/src/app/Services/payment.service.ts": [
+      [
+        1,
+        37
+      ]
+    ],
+    "frontend/src/app/Services/photo-wall.service.ts": [
+      [
+        1,
+        31
+      ]
+    ],
+    "frontend/src/app/Services/product-review.service.ts": [
+      [
+        1,
+        42
+      ]
+    ],
+    "frontend/src/app/Services/product.service.ts": [
+      [
+        1,
+        37
+      ]
+    ],
+    "frontend/src/app/Services/quantity.service.ts": [
+      [
+        1,
+        28
+      ]
+    ],
+    "frontend/src/app/Services/recycle.service.ts": [
+      [
+        1,
+        30
+      ]
+    ],
+    "frontend/src/app/Services/request.interceptor.ts": [
+      [
+        1,
+        30
+      ]
+    ],
+    "frontend/src/app/Services/security-answer.service.ts": [
+      [
+        1,
+        27
+      ]
+    ],
+    "frontend/src/app/Services/security-question.service.ts": [
+      [
+        1,
+        31
+      ]
+    ],
+    "frontend/src/app/Services/snack-bar-helper.service.ts": [
+      [
+        1,
+        34
+      ]
+    ],
+    "frontend/src/app/Services/socket-io.service.ts": [
+      [
+        1,
+        32
+      ]
+    ],
+    "frontend/src/app/Services/track-order.service.ts": [
+      [
+        1,
+        25
+      ]
+    ],
+    "frontend/src/app/Services/two-factor-auth-service.ts": [
+      [
+        1,
+        60
+      ]
+    ],
+    "frontend/src/app/Services/user.service.ts": [
+      [
+        1,
+        82
+      ]
+    ],
+    "frontend/src/app/Services/vuln-lines.service.ts": [
+      [
+        1,
+        27
+      ]
+    ],
+    "frontend/src/app/Services/wallet.service.ts": [
+      [
+        1,
+        28
+      ]
+    ],
+    "frontend/src/app/Services/window-ref.service.ts": [
+      [
+        1,
+        20
+      ]
+    ],
+    "frontend/src/app/sidenav/sidenav.component.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        20,
+        25
+      ],
+      [
+        60,
+        66
+      ],
+      [
+        82,
+        107
+      ],
+      [
+        118,
+        131
+      ],
+      [
+        148,
+        153
+      ]
+    ],
+    "frontend/src/app/token-sale/token-sale.component.ts": [
+      [
+        1,
+        40
+      ]
+    ],
+    "frontend/src/app/track-result/track-result.component.ts": [
+      [
+        1,
+        64
+      ]
+    ],
+    "frontend/src/app/two-factor-auth-enter/two-factor-auth-enter.component.ts": [
+      [
+        1,
+        75
+      ]
+    ],
+    "frontend/src/app/two-factor-auth/two-factor-auth.component.ts": [
+      [
+        1,
+        122
+      ]
+    ],
+    "frontend/src/app/user-details/user-details.component.ts": [
+      [
+        1,
+        38
+      ]
+    ],
+    "frontend/src/app/wallet-web3/wallet-web3.component.ts": [
+      [
+        1,
+        41
+      ],
+      [
+        56,
+        174
+      ]
+    ],
+    "frontend/src/app/wallet-web3/wallet-web3.module.ts": [
+      [
+        1,
+        49
+      ]
+    ],
+    "frontend/src/app/wallet/wallet.component.ts": [
+      [
+        1,
+        46
+      ]
+    ],
+    "frontend/src/app/web3-sandbox/web3-sandbox.component.ts": [
+      [
+        1,
+        58
+      ],
+      [
+        72,
+        140
+      ],
+      [
+        177,
+        226
+      ],
+      [
+        260,
+        317
+      ]
+    ],
+    "frontend/src/app/web3-sandbox/web3-sandbox.module.ts": [
+      [
+        1,
+        54
+      ]
+    ],
+    "frontend/src/app/welcome-banner/welcome-banner.component.ts": [
+      [
+        1,
+        34
+      ],
+      [
+        60,
+        68
+      ]
+    ],
+    "frontend/src/app/welcome/welcome.component.ts": [
+      [
+        1,
+        45
+      ]
+    ],
+    "lib/accuracy.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        28,
+        36
+      ],
+      [
+        40,
+        52
+      ]
+    ],
+    "lib/botUtils.ts": [
+      [
+        11,
+        22
+      ],
+      [
+        30,
+        37
+      ]
+    ],
+    "lib/insecurity.ts": [
+      [
+        1,
+        21
+      ],
+      [
+        24,
+        122
+      ],
+      [
+        143,
+        202
+      ]
+    ],
+    "lib/is-docker.ts": [
+      [
+        1,
+        32
+      ]
+    ],
+    "lib/is-heroku.ts": [
+      [
+        1,
+        5
+      ]
+    ],
+    "lib/is-windows.ts": [
+      [
+        1,
+        7
+      ]
+    ],
+    "lib/logger.ts": [
+      [
+        1,
+        14
+      ]
+    ],
+    "lib/noUpdate.ts": [
+      [
+        1,
+        54
+      ]
+    ],
+    "lib/startup/cleanupFtpFolder.ts": [
+      [
+        1,
+        22
+      ]
+    ],
+    "lib/startup/customizeApplication.ts": [
+      [
+        1,
+        72
+      ],
+      [
+        82,
+        117
+      ]
+    ],
+    "lib/startup/registerWebsocketEvents.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        12,
+        29
+      ],
+      [
+        33,
+        40
+      ],
+      [
+        55,
+        57
+      ]
+    ],
+    "lib/startup/restoreOverwrittenFilesWithOriginals.ts": [
+      [
+        1,
+        37
+      ]
+    ],
+    "lib/startup/validateChatBot.ts": [
+      [
+        1,
+        10
+      ],
+      [
+        28,
+        43
+      ]
+    ],
+    "lib/startup/validateConfig.ts": [
+      [
+        1,
+        15
+      ],
+      [
+        27,
+        107
+      ],
+      [
+        120,
+        156
+      ],
+      [
+        185,
+        187
+      ]
+    ],
+    "lib/startup/validateDependencies.ts": [
+      [
+        1,
+        38
+      ]
+    ],
+    "lib/startup/validateDependenciesBasic.ts": [
+      [
+        1,
+        19
+      ]
+    ],
+    "lib/startup/validatePreconditions.ts": [
+      [
+        1,
+        17
+      ],
+      [
+        21,
+        130
+      ]
+    ],
+    "lib/utils.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        16,
+        76
+      ],
+      [
+        95,
+        112
+      ],
+      [
+        120,
+        148
+      ],
+      [
+        153,
+        157
+      ],
+      [
+        169,
+        173
+      ],
+      [
+        196,
+        235
+      ]
+    ],
+    "lib/webhook.ts": [
+      [
+        1,
+        9
+      ]
+    ],
+    "models/address.ts": [
+      [
+        1,
+        76
+      ]
+    ],
+    "models/basket.ts": [
+      [
+        1,
+        50
+      ]
+    ],
+    "models/basketitem.ts": [
+      [
+        1,
+        50
+      ]
+    ],
+    "models/captcha.ts": [
+      [
+        1,
+        40
+      ]
+    ],
+    "models/card.ts": [
+      [
+        1,
+        72
+      ]
+    ],
+    "models/complaint.ts": [
+      [
+        1,
+        49
+      ]
+    ],
+    "models/delivery.ts": [
+      [
+        1,
+        49
+      ]
+    ],
+    "models/feedback.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        75,
+        77
+      ]
+    ],
+    "models/hint.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        55,
+        57
+      ]
+    ],
+    "models/imageCaptcha.ts": [
+      [
+        1,
+        47
+      ]
+    ],
+    "models/index.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        61,
+        65
+      ]
+    ],
+    "models/memory.ts": [
+      [
+        1,
+        49
+      ]
+    ],
+    "models/privacyRequests.ts": [
+      [
+        1,
+        49
+      ]
+    ],
+    "models/product.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        20,
+        33
+      ],
+      [
+        70,
+        72
+      ]
+    ],
+    "models/quantity.ts": [
+      [
+        1,
+        60
+      ]
+    ],
+    "models/recycle.ts": [
+      [
+        1,
+        55
+      ]
+    ],
+    "models/relations.ts": [
+      [
+        1,
+        146
+      ]
+    ],
+    "models/securityAnswer.ts": [
+      [
+        1,
+        58
+      ]
+    ],
+    "models/user.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        20,
+        36
+      ],
+      [
+        143,
+        145
+      ]
+    ],
+    "models/wallet.ts": [
+      [
+        1,
+        52
+      ]
+    ],
+    "routes/2fa.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        15,
+        40
+      ],
+      [
+        45,
+        47
+      ],
+      [
+        52,
+        177
+      ]
+    ],
+    "routes/address.ts": [
+      [
+        1,
+        37
+      ]
+    ],
+    "routes/angular.ts": [
+      [
+        1,
+        20
+      ]
+    ],
+    "routes/appConfiguration.ts": [
+      [
+        1,
+        14
+      ]
+    ],
+    "routes/appVersion.ts": [
+      [
+        1,
+        18
+      ]
+    ],
+    "routes/authenticatedUsers.ts": [
+      [
+        1,
+        38
+      ]
+    ],
+    "routes/b2bOrder.ts": [
+      [
+        1,
+        10
+      ],
+      [
+        39,
+        48
+      ]
+    ],
+    "routes/basket.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        30,
+        37
+      ]
+    ],
+    "routes/basketItems.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        14,
+        35
+      ],
+      [
+        46,
+        64
+      ],
+      [
+        83,
+        101
+      ]
+    ],
+    "routes/captcha.ts": [
+      [
+        1,
+        47
+      ]
+    ],
+    "routes/changePassword.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        11,
+        50
+      ]
+    ],
+    "routes/chatbot.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        22,
+        26
+      ],
+      [
+        33,
+        38
+      ],
+      [
+        42,
+        94
+      ],
+      [
+        127,
+        248
+      ]
+    ],
+    "routes/countryMapping.ts": [
+      [
+        1,
+        9
+      ]
+    ],
+    "routes/coupon.ts": [
+      [
+        1,
+        35
+      ]
+    ],
+    "routes/createProductReviews.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        21,
+        36
+      ]
+    ],
+    "routes/currentUser.ts": [
+      [
+        1,
+        5
+      ]
+    ],
+    "routes/dataErasure.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        15,
+        66
+      ],
+      [
+        95,
+        97
+      ]
+    ],
+    "routes/dataExport.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        14,
+        79
+      ]
+    ],
+    "routes/delivery.ts": [
+      [
+        1,
+        49
+      ]
+    ],
+    "routes/deluxe.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        15,
+        41
+      ],
+      [
+        59,
+        71
+      ]
+    ],
+    "routes/errorHandler.ts": [
+      [
+        1,
+        31
+      ]
+    ],
+    "routes/fileServer.ts": [
+      [
+        1,
+        8
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        32,
+        39
+      ],
+      [
+        51,
+        56
+      ]
+    ],
+    "routes/fileUpload.ts": [
+      [
+        1,
+        14
+      ],
+      [
+        18,
+        26
+      ],
+      [
+        138,
+        147
+      ]
+    ],
+    "routes/imageCaptcha.ts": [
+      [
+        1,
+        59
+      ]
+    ],
+    "routes/languages.ts": [
+      [
+        1,
+        75
+      ]
+    ],
+    "routes/likeProductReviews.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        13,
+        39
+      ],
+      [
+        49,
+        63
+      ]
+    ],
+    "routes/logfileServer.ts": [
+      [
+        1,
+        21
+      ]
+    ],
+    "routes/login.ts": [
+      [
+        1,
+        7
+      ]
+    ],
+    "routes/memory.ts": [
+      [
+        1,
+        28
+      ]
+    ],
+    "routes/metrics.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        24,
+        65
+      ],
+      [
+        77,
+        88
+      ],
+      [
+        117,
+        150
+      ],
+      [
+        188,
+        234
+      ]
+    ],
+    "routes/nftMint.ts": [
+      [
+        1,
+        3
+      ],
+      [
+        8,
+        32
+      ]
+    ],
+    "routes/order.ts": [
+      [
+        1,
+        11
+      ],
+      [
+        23,
+        52
+      ],
+      [
+        137,
+        177
+      ],
+      [
+        197,
+        209
+      ]
+    ],
+    "routes/orderHistory.ts": [
+      [
+        1,
+        40
+      ]
+    ],
+    "routes/payment.ts": [
+      [
+        1,
+        78
+      ]
+    ],
+    "routes/premiumReward.ts": [
+      [
+        1,
+        5
+      ]
+    ],
+    "routes/privacyPolicyProof.ts": [
+      [
+        1,
+        5
+      ]
+    ],
+    "routes/profileImageFileUpload.ts": [
+      [
+        1,
+        60
+      ]
+    ],
+    "routes/profileImageUrlUpload.ts": [
+      [
+        1,
+        15
+      ]
+    ],
+    "routes/quarantineServer.ts": [
+      [
+        1,
+        21
+      ]
+    ],
+    "routes/recycles.ts": [
+      [
+        1,
+        27
+      ]
+    ],
+    "routes/redirect.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        26,
+        34
+      ]
+    ],
+    "routes/repeatNotification.ts": [
+      [
+        1,
+        5
+      ],
+      [
+        17,
+        21
+      ]
+    ],
+    "routes/resetPassword.ts": [
+      [
+        1,
+        8
+      ]
+    ],
+    "routes/saveLoginIp.ts": [
+      [
+        1,
+        7
+      ]
+    ],
+    "routes/search.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        13,
+        17
+      ]
+    ],
+    "routes/showProductReviews.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        32,
+        35
+      ]
+    ],
+    "routes/trackOrder.ts": [
+      [
+        1,
+        5
+      ]
+    ],
+    "routes/updateProductReviews.ts": [
+      [
+        1,
+        7
+      ]
+    ],
+    "routes/updateUserProfile.ts": [
+      [
+        1,
+        7
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        35,
+        48
+      ]
+    ],
+    "routes/userProfile.ts": [
+      [
+        1,
+        11
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        24,
+        54
+      ],
+      [
+        69,
+        72
+      ],
+      [
+        85,
+        88
+      ],
+      [
+        92,
+        100
+      ]
+    ],
+    "routes/verify.ts": [
+      [
+        1,
+        11
+      ],
+      [
+        112,
+        116
+      ],
+      [
+        126,
+        135
+      ],
+      [
+        230,
+        247
+      ],
+      [
+        276,
+        286
+      ],
+      [
+        362,
+        369
+      ]
+    ],
+    "routes/videoHandler.ts": [
+      [
+        1,
+        11
+      ],
+      [
+        16,
+        57
+      ],
+      [
+        79,
+        85
+      ]
+    ],
+    "routes/wallet.ts": [
+      [
+        1,
+        36
+      ]
+    ],
+    "routes/web3Wallet.ts": [
+      [
+        1,
+        3
+      ],
+      [
+        8,
+        12
+      ]
+    ],
+    "server.ts": [
+      [
+        1,
+        34
+      ],
+      [
+        63,
+        66
+      ],
+      [
+        128,
+        209
+      ],
+      [
+        223,
+        226
+      ],
+      [
+        238,
+        266
+      ],
+      [
+        272,
+        279
+      ],
+      [
+        284,
+        287
+      ],
+      [
+        291,
+        334
+      ],
+      [
+        493,
+        501
+      ],
+      [
+        533,
+        660
+      ],
+      [
+        666,
+        668
+      ],
+      [
+        675,
+        702
+      ],
+      [
+        715,
+        723
+      ],
+      [
+        725,
+        741
+      ],
+      [
+        752,
+        756
+      ]
+    ]
+  }
+}

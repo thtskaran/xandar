@@ -9,7 +9,8 @@ Requires Node22+, npm and rootless Podman. Optional Office/PDF extraction requir
 ```bash
 npm ci
 npx playwright install chromium
-python3 -m pip install --target vendor/office -r requirements-office.txt
+python3 -m venv .venv
+.venv/bin/python -m pip install --target vendor/office -r requirements-office.txt
 bash scripts/install-storefront.sh
 bash scripts/start-xander.sh
 ```
@@ -37,8 +38,13 @@ Run `bash scripts/configure-azure.sh --save-env` yourself in a local terminal. R
 ```bash
 npm run check
 npm run test:workspace
+npm run test:workspace-v2
 ```
 
 The focused suite uses mocked provider responses and checks arithmetic, persistence and ordinary capture/vault behavior. Legacy `npm test` also includes older synthetic security fixtures; snapshot preparation did not run them.
 
 See [architecture](docs/ARCHITECTURE.md), [provenance](docs/PROVENANCE.md), [reproducibility](docs/REPRODUCIBILITY.md) and [third-party notices](THIRD_PARTY_NOTICES.md). Original Xander code is marked UNLICENSED pending an owner licensing decision; third-party licenses remain applicable.
+
+## Updated workspace
+
+The workspace now includes a pinned full-source inventory, an interactive component and endpoint map, resumable bounded analysis, conditional forecasts, and durable review-only fix proposals. See [workspace v2](docs/WORKSPACE-V2.md), [fix proposals](docs/FIXES.md), and the optional isolated [Laya setup](docs/LAYA.md). Private captures and saved analysis results are deliberately absent from this public repository.

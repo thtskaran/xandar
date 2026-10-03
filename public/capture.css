@@ -2,3 +2,17 @@
 
 .coverage-checkpoint{margin-top:24px;padding:18px;border:1px solid #cbd0c4;line-height:1.6}.coverage-checkpoint summary{cursor:pointer;font-weight:600}
 nav{flex-wrap:wrap}header nav{min-width:0}@media(max-width:650px){nav{width:100%}}
+/* Keep request paths and evidence readable on narrow screens. The existing
+   table wrapper owns horizontal scrolling, rather than the document. */
+@media(max-width:650px){
+ .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid #d7d9ce}
+ .table-wrap table{min-width:680px}
+ .table-wrap th,.table-wrap td{padding:12px 14px}
+ .table-wrap th:first-child,.table-wrap td:first-child{white-space:nowrap}
+ .table-wrap th:nth-child(2),.table-wrap td:nth-child(2){min-width:205px;max-width:285px}
+ .section-heading{padding-bottom:10px}
+ .section-heading label{display:inline-flex;align-items:center;gap:6px;min-height:36px}
+ .section-heading select{max-width:170px;min-height:32px;font:inherit}
+ .section-heading>span{display:block;margin-top:6px;line-height:1.6}
+ .section-heading::after{content:'Scroll the table horizontally to read all columns →';display:block;margin-top:10px;font-size:10px;line-height:1.6;color:#657062}
+}

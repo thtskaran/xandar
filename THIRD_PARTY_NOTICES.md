@@ -11,3 +11,6 @@ See [original provenance](vendor/project67/PROVENANCE.md). The upstream package 
 
 ## Original Xander code
 No project-wide license grant has been selected. Package metadata is UNLICENSED pending the owner's decision; this does not supersede third-party licenses.
+
+## Optional Laya dependency
+The optional installer fetches Laya and its English model separately under their upstream Apache-2.0 licenses. Code, model pins and setup are documented in [Laya setup](docs/LAYA.md). No model weights or installed package files are distributed here.
