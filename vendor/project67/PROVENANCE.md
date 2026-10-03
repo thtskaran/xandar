@@ -1,0 +1,2 @@
+# Project67 reuse
+Copied unmodified from the owner-provided Project67 repository, revision b951dee, source paths `src/executor/phase2Oracles.mjs`, `src/executor/expectationOracle.mjs`, and `src/verify/fdr.mjs`. Original package declares MIT. These files implement the deterministic cross-actor read oracle and its required dependencies. Xander does not reuse benchmark headline scores or infer production effectiveness from synthetic tests. Original repositories are preserved.

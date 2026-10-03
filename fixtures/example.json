@@ -1,0 +1,12 @@
+{
+  "revision": "owner-supplied-example-v1",
+  "files": [{"path":"src/routes/invoices.js","content":"import express from 'express';\nconst app = express();\napp.get('/api/invoices/:id', requireSession, async (req, res) => {\n  const invoice = await invoices.findById(req.params.id);\n  res.json(invoice);\n});\n"}],
+  "traffic": [{"method":"GET","url":"https://example.invalid/api/invoices/inv-123","status":200}],
+  "context": {
+    "name":"Your billing product",
+    "roles":["Tenant member","Administrator"],
+    "assets":["Customer invoices"],
+    "policy":"Tenant members may only access invoices owned by their organization.",
+    "assumptions":{}
+  }
+}
