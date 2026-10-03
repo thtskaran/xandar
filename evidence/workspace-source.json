@@ -1,0 +1,165 @@
+{
+  "sourceRevision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+  "evidence": [
+    {
+      "id": "S1",
+      "kind": "static-supported",
+      "text": "export function retrieveBasket () {\n  return (req: Request, res: Response, next: NextFunction) => {\n    const id = req.params.id\n    BasketModel.findOne({ where: { id }, include: [{ model: ProductModel, paranoid: false, as: 'Products' }] })\n      .then((basket: BasketModel | null) => {",
+      "sources": [
+        {
+          "path": "routes/basket.ts",
+          "lineStart": 15,
+          "lineEnd": 19,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "static-supported",
+      "text": "        if (((basket?.Products) != null) && basket.Products.length > 0) {\n          for (let i = 0; i < basket.Products.length; i++) {\n            basket.Products[i].name = req.__(basket.Products[i].name)\n          }\n        }\n\n        res.json(utils.queryResultToJson(basket))\n      }).catch((error: Error) => {\n        next(error)\n      })",
+      "sources": [
+        {
+          "path": "routes/basket.ts",
+          "lineStart": 25,
+          "lineEnd": 34,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "kind": "static-supported",
+      "text": "export function placeOrder () {\n  return (req: Request, res: Response, next: NextFunction) => {\n    const id = req.params.id\n    BasketModel.findOne({ where: { id }, include: [{ model: ProductModel, paranoid: false, as: 'Products' }] })\n      .then(async (basket: BasketModel | null) => {\n        if (basket != null) {\n          const customer = security.authenticatedUsers.from(req)\n          const email = customer ? customer.data ? customer.data.email : '' : ''\n          const orderId = security.hash(email).slice(0, 4) + '-' + utils.randomHexString(16)\n          const pdfFile = `order_${orderId}.pdf`\n          const doc = new PDFDocument()\n          const date = new Date().toJSON().slice(0, 10)\n          const fileWriter = doc.pipe(fs.createWriteStream(path.join('ftp/', pdfFile)))\n\n          fileWriter.on('finish', async () => {\n            void basket.update({ coupon: null })\n            await BasketItemModel.destroy({ where: { BasketId: id } })\n            res.json({ orderConfirmation: orderId })\n          })",
+      "sources": [
+        {
+          "path": "routes/order.ts",
+          "lineStart": 33,
+          "lineEnd": 51,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "kind": "static-supported",
+      "text": "              QuantityModel.findOne({ where: { ProductId: BasketItem.ProductId } }).then((product: any) => {\n                const newQuantity = product.quantity - BasketItem.quantity\n                QuantityModel.update({ quantity: newQuantity }, { where: { ProductId: BasketItem?.ProductId } }).catch((error: unknown) => {\n                  next(error)\n                })\n              }).catch((error: unknown) => {\n                next(error)\n              })",
+      "sources": [
+        {
+          "path": "routes/order.ts",
+          "lineStart": 71,
+          "lineEnd": 78,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "kind": "static-supported",
+      "text": "          const deliveryMethod = {\n            deluxePrice: 0,\n            price: 0,\n            eta: 5\n          }\n          if (req.body.orderDetails?.deliveryMethodId) {\n            const deliveryMethodFromModel = await DeliveryModel.findOne({ where: { id: req.body.orderDetails.deliveryMethodId } })\n            if (deliveryMethodFromModel != null) {\n              deliveryMethod.deluxePrice = deliveryMethodFromModel.deluxePrice\n              deliveryMethod.price = deliveryMethodFromModel.price\n              deliveryMethod.eta = deliveryMethodFromModel.eta\n            }\n          }\n          const deliveryAmount = security.isDeluxe(req) ? deliveryMethod.deluxePrice : deliveryMethod.price\n          totalPrice += deliveryAmount",
+      "sources": [
+        {
+          "path": "routes/order.ts",
+          "lineStart": 111,
+          "lineEnd": 125,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "kind": "static-supported",
+      "text": "          db.ordersCollection.insert({\n            promotionalAmount: discountAmount,\n            paymentId: req.body.orderDetails ? req.body.orderDetails.paymentId : null,\n            addressId: req.body.orderDetails ? req.body.orderDetails.addressId : null,\n            orderId,\n            delivered: false,\n            email: (email ? email.replace(/[aeiou]/gi, '*') : undefined),\n            totalPrice,\n            products: basketProducts,\n            bonus: totalPoints,\n            deliveryPrice: deliveryAmount,\n            eta: deliveryMethod.eta.toString()\n          }).then(() => {\n            doc.end()\n          })",
+      "sources": [
+        {
+          "path": "routes/order.ts",
+          "lineStart": 154,
+          "lineEnd": 168,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "kind": "static-supported",
+      "text": "\nimport { ordersCollection } from '../data/mongodb'\nimport * as security from '../lib/insecurity'\n\nexport function orderHistory () {\n  return async (req: Request, res: Response, next: NextFunction) => {\n    const loggedInUser = security.authenticatedUsers.get(req.headers?.authorization?.replace('Bearer ', ''))\n    if (loggedInUser?.data?.email && loggedInUser.data.id) {\n      const email = loggedInUser.data.email\n      const updatedEmail = email.replace(/[aeiou]/gi, '*')\n      const order = await ordersCollection.find({ email: updatedEmail })\n      res.status(200).json({ status: 'success', data: order })\n    } else {\n      next(new Error('Blocked illegal activity by ' + req.socket.remoteAddress))\n    }\n  }\n}",
+      "sources": [
+        {
+          "path": "routes/orderHistory.ts",
+          "lineStart": 7,
+          "lineEnd": 23,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "kind": "static-supported",
+      "text": "\nimport { DeliveryModel } from '../models/delivery'\nimport * as security from '../lib/insecurity'\n\nexport function getDeliveryMethods () {\n  return async (req: Request, res: Response, next: NextFunction) => {\n    const methods = await DeliveryModel.findAll()\n    if (methods) {\n      const sendMethods = []\n      for (const method of methods) {\n        sendMethods.push({\n          id: method.id,\n          name: method.name,\n          price: security.isDeluxe(req) ? method.deluxePrice : method.price,\n          eta: method.eta,\n          icon: method.icon\n        })\n      }\n      res.status(200).json({ status: 'success', data: sendMethods })\n    } else {\n      res.status(400).json({ status: 'error' })\n    }\n  }\n}\n\nexport function getDeliveryMethod () {",
+      "sources": [
+        {
+          "path": "routes/delivery.ts",
+          "lineStart": 7,
+          "lineEnd": 32,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S9",
+      "kind": "static-supported",
+      "text": "\nexport function getPaymentMethods () {\n  return async (req: Request, res: Response, next: NextFunction) => {\n    const displayableCards: displayCard[] = []\n    const cards = await CardModel.findAll({ where: { UserId: req.body.UserId } })\n    cards.forEach(card => {\n      const displayableCard: displayCard = {\n        UserId: card.UserId,\n        id: card.id,\n        fullName: card.fullName,\n        cardNum: '',\n        expMonth: card.expMonth,\n        expYear: card.expYear\n      }\n      const cardNumber = String(card.cardNum)\n      displayableCard.cardNum = '*'.repeat(12) + cardNumber.substring(cardNumber.length - 4)\n      displayableCards.push(displayableCard)\n    })\n    res.status(200).json({ status: 'success', data: displayableCards })\n  }",
+      "sources": [
+        {
+          "path": "routes/payment.ts",
+          "lineStart": 17,
+          "lineEnd": 36,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "kind": "static-supported",
+      "text": "// @ts-expect-error FIXME due to non-existing type definitions for MarsDB\nimport * as MarsDB from 'marsdb'\n\nexport const reviewsCollection = new MarsDB.Collection('posts')\nexport const ordersCollection = new MarsDB.Collection('orders')",
+      "sources": [
+        {
+          "path": "data/mongodb.ts",
+          "lineStart": 6,
+          "lineEnd": 10,
+          "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+          "scope": "actual-source",
+          "license": "MIT",
+          "note": "Reviewed bounded excerpt; surrounding middleware and full control flow not included."
+        }
+      ]
+    }
+  ]
+}
