@@ -1,0 +1,7 @@
+import test from'node:test';import assert from'node:assert/strict';import{forecastImpact}from'../public/impact-forecast.mjs';
+const input={reviewed:true,dailyAttempts:100,affectedShare:.2,durationLow:1,durationBase:2,durationHigh:4,horizonDays:3,recoveryShare:.5,recoveryPerDay:15,ongoingArrivalsPerDay:5};
+test('bounded windows use explicit rates, not customers or probabilities',()=>{const f=forecastImpact(input),w=f.windows.find(w=>w.days===3);assert.deepEqual(w.cases.map(x=>x.affectedAttempts),[20,40,60]);assert.deepEqual(w.cases.map(x=>x.elapsedDisruptionHours),[24,48,72]);assert.deepEqual(w.cases.map(x=>x.clearanceDaysAfterResumption),[1,2,3]);assert.match(f.units.affectedAttempts,/not unique/);});
+test('unknown recovery stays unknown and zero affected share is valid',()=>{const f=forecastImpact({...input,affectedShare:0,recoveryShare:null,recoveryPerDay:null,ongoingArrivalsPerDay:null});assert.equal(f.windows[0].cases[0].affectedAttempts,0);assert.equal(f.windows[0].cases[0].clearanceDaysAfterResumption,null);});
+test('review, ordering, bounds and paired recovery inputs required',()=>{for(const delta of[{reviewed:false},{durationLow:5},{dailyAttempts:Infinity},{affectedShare:1.1},{horizonDays:0},{recoveryShare:null}])assert.throws(()=>forecastImpact({...input,...delta}));});
+
+test('no finite clearance when capacity cannot exceed ongoing work',()=>{const f=forecastImpact({...input,recoveryPerDay:5});assert.equal(f.windows[0].cases[0].clearanceDaysAfterResumption,null);assert.equal(f.windows[0].cases[0].capacityInsufficient,true);});
