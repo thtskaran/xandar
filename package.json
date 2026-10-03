@@ -1,0 +1,22 @@
+{
+  "name": "xander-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local source-to-runtime security evidence and conditional business scenarios",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "test:workspace": "node --test test/workspace-analysis.test.mjs test/impact-forecast.test.mjs test/forecast-persistence.test.mjs test/conditional.test.mjs test/vault.test.mjs test/capture.test.mjs test/private-env.test.mjs test/launcher-identity.test.mjs"
+  },
+  "dependencies": {
+    "acorn": "^8.18.0",
+    "express": "^5.1.0",
+    "playwright": "1.57.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED"
+}
