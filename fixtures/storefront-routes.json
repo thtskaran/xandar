@@ -1,0 +1,768 @@
+{
+  "version": "19.0.0",
+  "revision": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+  "sourceSha256": "b9221b1a9664444a4a8ca07e590bae657c093150f1438c1a644e1fd7398bd732",
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/file-upload",
+      "file": "server.ts",
+      "line": 304,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/profile/image/file",
+      "file": "server.ts",
+      "line": 305,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/profile/image/url",
+      "file": "server.ts",
+      "line": 306,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/memories",
+      "file": "server.ts",
+      "line": 307,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Users",
+      "file": "server.ts",
+      "line": 357,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Products",
+      "file": "server.ts",
+      "line": 363,
+      "status": "source-declaration"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/Products/:id",
+      "file": "server.ts",
+      "line": 365,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Challenges",
+      "file": "server.ts",
+      "line": 367,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Hints",
+      "file": "server.ts",
+      "line": 370,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Complaints",
+      "file": "server.ts",
+      "line": 375,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Complaints",
+      "file": "server.ts",
+      "line": 376,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Recycles",
+      "file": "server.ts",
+      "line": 379,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Recycles",
+      "file": "server.ts",
+      "line": 380,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Recycles/:id",
+      "file": "server.ts",
+      "line": 382,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/Recycles/:id",
+      "file": "server.ts",
+      "line": 383,
+      "status": "source-declaration"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/Recycles/:id",
+      "file": "server.ts",
+      "line": 384,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/SecurityQuestions",
+      "file": "server.ts",
+      "line": 386,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/SecurityAnswers",
+      "file": "server.ts",
+      "line": 389,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Feedbacks",
+      "file": "server.ts",
+      "line": 396,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Feedbacks",
+      "file": "server.ts",
+      "line": 398,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Feedbacks",
+      "file": "server.ts",
+      "line": 400,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Users",
+      "file": "server.ts",
+      "line": 402,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Users",
+      "file": "server.ts",
+      "line": 414,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Users",
+      "file": "server.ts",
+      "line": 415,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Users",
+      "file": "server.ts",
+      "line": 416,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/BasketItems/:id",
+      "file": "server.ts",
+      "line": 420,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/BasketItems",
+      "file": "server.ts",
+      "line": 421,
+      "status": "source-declaration"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/Quantitys/:id",
+      "file": "server.ts",
+      "line": 423,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Quantitys",
+      "file": "server.ts",
+      "line": 424,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/Feedbacks/:id",
+      "file": "server.ts",
+      "line": 427,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Cards",
+      "file": "server.ts",
+      "line": 432,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Cards",
+      "file": "server.ts",
+      "line": 433,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/Cards/:id",
+      "file": "server.ts",
+      "line": 434,
+      "status": "source-declaration"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/Cards/:id",
+      "file": "server.ts",
+      "line": 435,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Cards/:id",
+      "file": "server.ts",
+      "line": 436,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/PrivacyRequests",
+      "file": "server.ts",
+      "line": 438,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/PrivacyRequests",
+      "file": "server.ts",
+      "line": 439,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/api/Addresss",
+      "file": "server.ts",
+      "line": 442,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Addresss",
+      "file": "server.ts",
+      "line": 443,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/Addresss/:id",
+      "file": "server.ts",
+      "line": 444,
+      "status": "source-declaration"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/Addresss/:id",
+      "file": "server.ts",
+      "line": 445,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Addresss/:id",
+      "file": "server.ts",
+      "line": 446,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Deliverys",
+      "file": "server.ts",
+      "line": 447,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Deliverys/:id",
+      "file": "server.ts",
+      "line": 448,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/2fa/verify",
+      "file": "server.ts",
+      "line": 452,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/2fa/status",
+      "file": "server.ts",
+      "line": 457,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/2fa/setup",
+      "file": "server.ts",
+      "line": 459,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/2fa/disable",
+      "file": "server.ts",
+      "line": 465,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/user/login",
+      "file": "server.ts",
+      "line": 589,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/user/change-password",
+      "file": "server.ts",
+      "line": 590,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/user/reset-password",
+      "file": "server.ts",
+      "line": 591,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/user/security-question",
+      "file": "server.ts",
+      "line": 592,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/user/whoami",
+      "file": "server.ts",
+      "line": 593,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/user/authentication-details",
+      "file": "server.ts",
+      "line": 594,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/products/search",
+      "file": "server.ts",
+      "line": 595,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/basket/:id",
+      "file": "server.ts",
+      "line": 596,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/basket/:id/checkout",
+      "file": "server.ts",
+      "line": 597,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/rest/basket/:id/coupon/:coupon",
+      "file": "server.ts",
+      "line": 598,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/admin/application-version",
+      "file": "server.ts",
+      "line": 599,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/admin/application-configuration",
+      "file": "server.ts",
+      "line": 600,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/repeat-notification",
+      "file": "server.ts",
+      "line": 601,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/continue-code",
+      "file": "server.ts",
+      "line": 602,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/continue-code-findIt",
+      "file": "server.ts",
+      "line": 603,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/continue-code-fixIt",
+      "file": "server.ts",
+      "line": 604,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/rest/continue-code-findIt/apply/:continueCode",
+      "file": "server.ts",
+      "line": 605,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/rest/continue-code-fixIt/apply/:continueCode",
+      "file": "server.ts",
+      "line": 606,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/rest/continue-code/apply/:continueCode",
+      "file": "server.ts",
+      "line": 607,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/captcha",
+      "file": "server.ts",
+      "line": 608,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/image-captcha",
+      "file": "server.ts",
+      "line": 609,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/track-order/:id",
+      "file": "server.ts",
+      "line": 610,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/country-mapping",
+      "file": "server.ts",
+      "line": 611,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/saveLoginIp",
+      "file": "server.ts",
+      "line": 612,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/user/data-export",
+      "file": "server.ts",
+      "line": 613,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/user/data-export",
+      "file": "server.ts",
+      "line": 614,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/languages",
+      "file": "server.ts",
+      "line": 615,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/order-history",
+      "file": "server.ts",
+      "line": 616,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/order-history/orders",
+      "file": "server.ts",
+      "line": 617,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/rest/order-history/:id/delivery-status",
+      "file": "server.ts",
+      "line": 618,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/wallet/balance",
+      "file": "server.ts",
+      "line": 619,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/rest/wallet/balance",
+      "file": "server.ts",
+      "line": 620,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/deluxe-membership",
+      "file": "server.ts",
+      "line": 621,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/deluxe-membership",
+      "file": "server.ts",
+      "line": 622,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/memories",
+      "file": "server.ts",
+      "line": 623,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/chatbot/status",
+      "file": "server.ts",
+      "line": 624,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/chatbot/respond",
+      "file": "server.ts",
+      "line": 625,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/products/:id/reviews",
+      "file": "server.ts",
+      "line": 627,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PUT",
+      "path": "/rest/products/:id/reviews",
+      "file": "server.ts",
+      "line": 628,
+      "status": "source-declaration"
+    },
+    {
+      "method": "PATCH",
+      "path": "/rest/products/reviews",
+      "file": "server.ts",
+      "line": 629,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/products/reviews",
+      "file": "server.ts",
+      "line": 630,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/web3/submitKey",
+      "file": "server.ts",
+      "line": 633,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/web3/nftUnlocked",
+      "file": "server.ts",
+      "line": 634,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/web3/nftMintListen",
+      "file": "server.ts",
+      "line": 635,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/web3/walletNFTVerify",
+      "file": "server.ts",
+      "line": 636,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/rest/web3/walletExploitAddress",
+      "file": "server.ts",
+      "line": 637,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/b2b/v2/orders",
+      "file": "server.ts",
+      "line": 640,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg",
+      "file": "server.ts",
+      "line": 643,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/this/page/is/hidden/behind/an/incredibly/high/paywall/that/could/only/be/unlocked/by/sending/1btc/to/us",
+      "file": "server.ts",
+      "line": 644,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/we/may/also/instruct/you/to/refuse/all/reasonably/necessary/responsibility",
+      "file": "server.ts",
+      "line": 645,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/redirect",
+      "file": "server.ts",
+      "line": 651,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/promotion",
+      "file": "server.ts",
+      "line": 654,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/video",
+      "file": "server.ts",
+      "line": 655,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/profile",
+      "file": "server.ts",
+      "line": 658,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/profile",
+      "file": "server.ts",
+      "line": 659,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/snippets/:challenge",
+      "file": "server.ts",
+      "line": 662,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/snippets/verdict",
+      "file": "server.ts",
+      "line": 663,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/snippets/fixes/:key",
+      "file": "server.ts",
+      "line": 664,
+      "status": "source-declaration"
+    },
+    {
+      "method": "POST",
+      "path": "/snippets/fixes",
+      "file": "server.ts",
+      "line": 665,
+      "status": "source-declaration"
+    },
+    {
+      "method": "GET",
+      "path": "/metrics",
+      "file": "server.ts",
+      "line": 713,
+      "status": "source-declaration"
+    }
+  ],
+  "limitations": [
+    "Only literal app METHOD declarations in server.ts are indexed.",
+    "Generated REST, router mounts, regular expressions, middleware and dynamic paths remain unresolved.",
+    "A matching route is a candidate correlation, never execution or security proof."
+  ]
+}

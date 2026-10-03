@@ -1,0 +1,5 @@
+{"type":"meta","at":"2026-10-03T00:00:00.000Z","connection_mode":"CDP","start_url":"https://synthetic.invalid/?token=discard-me"}
+{"type":"request","at":"2026-10-03T00:00:01.000Z","request":{"id":"rid_demo1","method":"GET","url":"https://synthetic.invalid/api/invoices/inv-123?token=discard-me","headers":{"authorization":"Bearer discard-me"},"resourceType":"fetch","bodySaved":null}}
+{"type":"response","at":"2026-10-03T00:00:01.150Z","request":{"id":"rid_demo1","method":"GET","url":"https://synthetic.invalid/api/invoices/inv-123?token=discard-me","headers":{}},"response":{"status":200,"headers":{"set-cookie":"discard-me"},"bodySaved":{"path":"bodies/discard-me","bytes":12}}}
+{"type":"request","at":"2026-10-03T00:00:02.000Z","request":{"id":"rid_unfinished","method":"GET","url":"https://synthetic.invalid/api/profile","headers":{}}}
+{"type":"serviceworker_detected","at":"2026-10-03T00:00:03.000Z","url":"https://synthetic.invalid/sw.js"}

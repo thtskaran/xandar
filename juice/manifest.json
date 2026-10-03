@@ -1,0 +1,16 @@
+{
+  "version": "19.0.0",
+  "sourceCommit": "36870cbbdfe7864698e1adf644c7bf772f67ebb7",
+  "officialBase": "docker.io/bkimminich/juice-shop@sha256:2765a26de7647609099a338d5b7f61085d95903c8703bb70f03fcc4b12f0818d",
+  "derivedImage": "localhost/xander-juice:19.0.0-lifecycle2",
+  "derivedImageId": "3c50b125987a8209d3546685e65d42c00c80167a698aa820d9ffb828f1cab4ee",
+  "deviation": "Startup-only retained-database/reference-cache restoration; routes and checks unchanged",
+  "patchSha256": {
+    "persistence.cjs": "f44894adb8a567e929d17449ee98648e4ef674ae2ec44ba21dc29c881aa3a145",
+    "server.patched.cjs": "612f530afe259a6b52d60b02b9a5fadacf836cfa584971a224f39d22d591d4f1"
+  },
+  "restartSemantics": "SQLite retained; memory collections snapshot every2seconds; no abrupt-power-loss guarantee; browser authentication rebuilt by normal login",
+  "container": "xander-juice-shop",
+  "origin": "http://127.0.0.1:3000",
+  "rollbackContainer": "xander-juice-shop-before-lifecycle2"
+}
